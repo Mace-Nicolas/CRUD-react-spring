@@ -1,0 +1,35 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+.App {
+  background-color: #222;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.selector {
+  border-radius: 5px;
+  margin: 20px;
+  height: 40px; 
+  width: 250px; 
+  font-size: 20px;
+  padding: 5px; 
+}
+
+.button {
+  border-radius: 5px;
+  margin: 20px;
+  height: 40px; 
+  width: 150px; 
+  font-size: 20px;
+  padding: 5px; 
+  background-color: green;
+  border: none;
+  color: white;
+  cursor:pointer;
+}
